@@ -61,6 +61,7 @@ executable shortest-path-server
   
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.9 && <4.10
+                     , binary
   
   -- Directories containing source files.
   hs-source-dirs:      src
