@@ -97,10 +97,10 @@ import Data.Binary.Get
 
 
 data InputDAG = InputDAG {
-  entryPoint ::
-  terminal ::
-  numberOfEdges ::
-  edges :: []
+    entryPoint :: []
+  , terminal :: []
+  , numberOfEdges :: []
+  , edges :: []
 }
 
 
